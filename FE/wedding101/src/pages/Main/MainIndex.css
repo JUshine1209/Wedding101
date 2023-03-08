@@ -1,0 +1,32 @@
+.mainindex {
+  height: 100%;
+  overflow-y: hidden;
+  /* mobile 환경에서 스크롤 방지 */
+  touch-action: none;
+}
+/* 스크롤바 숨기기 */
+::-webkit-scrollbar {
+  display: none;
+}
+
+.goServiceButton {
+  position: fixed;
+  left: 50%;
+  top: 85%;
+  transform: translate(-50%, -50%);
+}
+
+#invitation{
+  position: relative;
+  top:-8vh;
+}
+
+#album{
+  position: relative;
+  top:-8vh;
+}
+
+#process{
+  position: relative;
+  top:-8vh; 
+}

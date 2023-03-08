@@ -1,0 +1,5 @@
+2023-2월-13 09:49:02 INFO  [http-nio-9090-exec-1] [org.apache.juli.logging.DirectJDKLog] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-2월-13 09:49:03 INFO  [http-nio-9090-exec-1] [org.springframework.web.servlet.FrameworkServlet] - Initializing Servlet 'dispatcherServlet'
+2023-2월-13 09:49:03 INFO  [http-nio-9090-exec-1] [org.springframework.web.servlet.FrameworkServlet] - Completed initialization in 1 ms
+2023-2월-13 09:49:03 WARN  [http-nio-9090-exec-3] [org.springframework.web.servlet.DispatcherServlet] - No mapping for GET /favicon.ico
+2023-2월-13 09:49:45 WARN  [http-nio-9090-exec-6] [org.springframework.web.servlet.DispatcherServlet] - No mapping for GET /favicon.ico

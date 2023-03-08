@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+
+    <Properties>
+        <Property name="logFileName">springLog</Property>
+        <Property name="consoleLayout">%style{%d{ISO8601}}{black} %highlight{%-5level }[%style{%t}{bright,blue}] %style{%C{1.}}{bright,yellow}: %msg%n%throwable</Property>
+        <Property name="fileLayout">%d{yyyy-MMM-dd HH:mm:ss} %-5p [%t] [%C] - %m%n</Property>
+    </Properties>
+
+    <Appenders>
+        <Console name="console" target="SYSTEM_OUT">
+            <PatternLayout pattern="${consoleLayout}" />
+        </Console>
+        <RollingFile name="file" fileName="./logs/${date:yyyy}/${date:MM}/${logFileName}.log" filePattern="./logs/${date:yyyy}/${date:MM}/${logFileName}_%d{yyyy-MM-dd-hh-mm}.log">
+            <PatternLayout pattern="${fileLayout}" />
+            <Policies>
+                <TimeBasedTriggeringPolicy modulate="true" interval="1" /><!-- 시간별 로그 파일 생성-->
+            </Policies>
+            <DefaultRolloverStrategy max="7" fileIndex="max"><!-- 롤링 파일 5개 까지 생성 -> 아님 수정함-->
+                <Delete basePath = "/logs" maxDepth = "1">
+                    <IfLastModified age = "3d"/> <!--  3일 경과한 파일 자동 삭제 -->
+                </Delete>
+            </DefaultRolloverStrategy>
+        </RollingFile>
+    </Appenders>
+
+    <Loggers>
+        <!-- Application Loggers -->
+        <!-- Root 보다 우선 순위가 높습니다. -->
+        <logger name="com.ssafy.wedding101.controller" level="INFO" additivity="false">
+            <AppenderRef ref="console" />
+            <AppenderRef ref="file" />
+        </logger>
+
+        <!-- FATAL, ERROR, WARN, INFO, DEBUG, TRACE -->
+        <Root level="INFO">
+            <AppenderRef ref="console" />
+            <AppenderRef ref="file" />
+        </Root>
+    </Loggers>
+</Configuration>

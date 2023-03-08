@@ -1,0 +1,47 @@
+.main-area03 {
+  background-color: #d2dae9;
+  display: flex;
+  padding-bottom: 8vh;
+  height: 92vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#title03{
+  height: 40%;
+}
+#DL03{
+  align-items: start;
+  height: 60%;
+}
+
+#button03{
+  background-color: #A3BDED;
+  height: 20%;
+}
+#HL_p3_01 {
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+}
+#VL_p3_01 {
+  height: 100%;
+  justify-content: space-between;
+}
+#img_main3_1{
+  height: 100%;
+}
+#img_main3_2{
+  height:60%;
+  object-fit: scale-down;
+}
+#title_p3_01{
+  height:40%;
+}
+#explain_03_01 {
+  font-family: "Nanum Brush Script";
+  color: white;
+  text-shadow: 2px 2px 4px gray;
+  font-size: 6vh;
+}

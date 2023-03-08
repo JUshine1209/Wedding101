@@ -1,0 +1,10 @@
+2023-2월-06 14:18:00 WARN  [restartedMain] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-2월-06 14:18:00 INFO  [restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] - Adding welcome page: class path resource [static/index.html]
+2023-2월-06 14:18:00 INFO  [restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2023-2월-06 14:18:00 INFO  [restartedMain] [org.apache.juli.logging.DirectJDKLog] - Starting ProtocolHandler ["http-nio-8080"]
+2023-2월-06 14:18:00 INFO  [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 8080 (http) with context path ''
+2023-2월-06 14:18:00 INFO  [restartedMain] [org.springframework.boot.StartupInfoLogger] - Started Wedding101Application in 3.5 seconds (JVM running for 4.316)
+2023-2월-06 14:18:39 INFO  [http-nio-8080-exec-1] [org.apache.juli.logging.DirectJDKLog] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-2월-06 14:18:39 INFO  [http-nio-8080-exec-1] [org.springframework.web.servlet.FrameworkServlet] - Initializing Servlet 'dispatcherServlet'
+2023-2월-06 14:18:39 INFO  [http-nio-8080-exec-1] [org.springframework.web.servlet.FrameworkServlet] - Completed initialization in 0 ms
+2023-2월-06 14:18:40 INFO  [http-nio-8080-exec-4] [org.springdoc.api.AbstractOpenApiResource] - Init duration for springdoc-openapi is: 257 ms

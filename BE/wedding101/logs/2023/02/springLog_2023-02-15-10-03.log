@@ -1,0 +1,4 @@
+2023-2월-15 10:03:19 WARN  [http-nio-9090-exec-8] [org.springframework.web.servlet.DispatcherServlet] - No mapping for POST /user/exist/id/
+2023-2월-15 10:03:31 WARN  [http-nio-9090-exec-9] [org.springframework.web.servlet.DispatcherServlet] - No mapping for GET /user/exist/id/
+2023-2월-15 10:03:44 WARN  [http-nio-9090-exec-10] [org.springframework.web.servlet.DispatcherServlet] - No mapping for GET /user/exist/id/
+2023-2월-15 10:03:48 WARN  [http-nio-9090-exec-2] [org.springframework.web.servlet.DispatcherServlet] - No mapping for GET /user/exist/id/

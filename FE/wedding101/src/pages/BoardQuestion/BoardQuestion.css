@@ -1,0 +1,74 @@
+.BQ-board-ask {
+    background-color: #d2dae9;
+    height: 90vh;
+    padding: 5%;
+}
+
+.BQ-navbar {
+    display: inline;
+    height: 100vh;
+}
+
+.BQ-style {
+    position: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000;
+    background-color: background-paper;
+    border: 2px solid #000;
+    box-shadow: 24;
+};
+
+.BQ-register_btn{
+    height: 90%;
+    font-size: large;
+    margin-top: 10%;
+    justify-content: center;
+}
+
+.BQ-button-style{
+    float: right;
+    margin-top: 1.5%;
+}
+    
+.BQ-pagination {
+    margin-top: 1.5%;
+    justify-content: center;
+}
+
+#BQ-grid-align{
+    margin-top: 3%;
+}
+
+.BQ-newQuestionContent{
+    width: 100%;
+    height: 100%;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.BQ-blank-for-askContent{
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+
+.BQ-Edit-Cancel-Buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    width: 95%;
+    margin-bottom: -1%;
+}
+
+/* 구분선  */
+.BQ-Division-Line{
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+
+.BQ-Modal-Text-Align{
+    margin-left: 1.5%;
+    margin-top: -0.5%;
+}

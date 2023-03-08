@@ -1,0 +1,23 @@
+.process03 {
+    background-color: #C5DAD1;
+    height: 70vh;
+}
+.invitation-item{
+    margin: 1px;
+    display: flex;
+}
+.text-form {
+    display: flex;
+    flex-direction: row;
+}
+.invitation-form{
+    display: flex;
+}
+.upload-text {
+    display: flex;
+}
+.buttons {
+    display: inline;
+    float: right;
+    margin: 5px;
+}

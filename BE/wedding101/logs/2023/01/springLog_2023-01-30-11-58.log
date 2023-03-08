@@ -1,0 +1,30 @@
+2023-1월-30 23:58:48 INFO  [restartedMain] [org.springframework.boot.StartupInfoLogger] - Starting Wedding101Application using Java 11.0.18 on DESKTOP-DOGVPUB with PID 17712 (C:\Users\SSAFY\Desktop\공통 pjt\S08P12A101\BE\wedding101\build\classes\java\main started by SSAFY in C:\Users\SSAFY\Desktop\공통 pjt\S08P12A101\BE\wedding101)
+2023-1월-30 23:58:48 INFO  [restartedMain] [org.springframework.boot.SpringApplication] - The following 1 profile is active: "db"
+2023-1월-30 23:58:48 INFO  [restartedMain] [org.springframework.boot.logging.DeferredLog] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-1월-30 23:58:48 INFO  [restartedMain] [org.springframework.boot.logging.DeferredLog] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-1월-30 23:58:49 INFO  [restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-1월-30 23:58:49 INFO  [restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 43 ms. Found 2 JPA repository interfaces.
+2023-1월-30 23:58:49 INFO  [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8081 (http)
+2023-1월-30 23:58:49 INFO  [restartedMain] [org.apache.juli.logging.DirectJDKLog] - Initializing ProtocolHandler ["http-nio-8081"]
+2023-1월-30 23:58:49 INFO  [restartedMain] [org.apache.juli.logging.DirectJDKLog] - Starting service [Tomcat]
+2023-1월-30 23:58:49 INFO  [restartedMain] [org.apache.juli.logging.DirectJDKLog] - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-1월-30 23:58:49 INFO  [restartedMain] [org.apache.juli.logging.DirectJDKLog] - Initializing Spring embedded WebApplicationContext
+2023-1월-30 23:58:49 INFO  [restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1282 ms
+2023-1월-30 23:58:49 INFO  [restartedMain] [org.hibernate.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-1월-30 23:58:49 INFO  [restartedMain] [org.hibernate.Version] - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-1월-30 23:58:49 INFO  [restartedMain] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-1월-30 23:58:50 INFO  [restartedMain] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2023-1월-30 23:58:50 INFO  [restartedMain] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+2023-1월-30 23:58:50 INFO  [restartedMain] [org.hibernate.dialect.Dialect] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-1월-30 23:58:50 INFO  [restartedMain] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-1월-30 23:58:50 INFO  [restartedMain] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-1월-30 23:58:51 WARN  [restartedMain] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-1월-30 23:58:51 INFO  [restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] - Adding welcome page: class path resource [static/index.html]
+2023-1월-30 23:58:51 INFO  [restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2023-1월-30 23:58:51 INFO  [restartedMain] [org.apache.juli.logging.DirectJDKLog] - Starting ProtocolHandler ["http-nio-8081"]
+2023-1월-30 23:58:51 INFO  [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 8081 (http) with context path ''
+2023-1월-30 23:58:51 INFO  [restartedMain] [org.springframework.boot.StartupInfoLogger] - Started Wedding101Application in 3.678 seconds (JVM running for 4.606)
+2023-1월-30 23:58:57 INFO  [http-nio-8081-exec-1] [org.apache.juli.logging.DirectJDKLog] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-1월-30 23:58:57 INFO  [http-nio-8081-exec-1] [org.springframework.web.servlet.FrameworkServlet] - Initializing Servlet 'dispatcherServlet'
+2023-1월-30 23:58:57 INFO  [http-nio-8081-exec-1] [org.springframework.web.servlet.FrameworkServlet] - Completed initialization in 1 ms
+2023-1월-30 23:58:58 INFO  [http-nio-8081-exec-10] [org.springdoc.api.AbstractOpenApiResource] - Init duration for springdoc-openapi is: 169 ms

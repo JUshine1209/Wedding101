@@ -1,0 +1,20 @@
+.wedding-info-form {
+    background-color: #ffffff;
+    width: 40%;
+    height: 100%;
+}
+
+.verticalLayout#infoForm {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.verticalLayout#infoForm > .horizontalLayout {
+    width: 80%;
+    justify-content: space-between;
+}
+
+.textInputField {
+    width: 70%;
+}

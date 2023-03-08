@@ -1,0 +1,29 @@
+2023-2월-02 16:55:00 INFO  [restartedMain] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-2월-02 16:55:00 INFO  [restartedMain] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2023-2월-02 16:55:00 INFO  [restartedMain] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+2023-2월-02 16:55:00 INFO  [restartedMain] [org.hibernate.dialect.Dialect] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-2월-02 16:55:01 INFO  [restartedMain] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-2월-02 16:55:01 INFO  [restartedMain] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-2월-02 16:55:01 WARN  [restartedMain] [org.springframework.context.support.AbstractApplicationContext] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mediaRestController' defined in file [C:\Users\SSAFY\Desktop\공통 pjt\S08P12A101\BE\wedding101\build\classes\java\main\com\ssafy\wedding101\controller\MediaRestController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.ssafy.wedding101.model.service.MediaService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-2월-02 16:55:01 INFO  [restartedMain] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-2월-02 16:55:01 INFO  [restartedMain] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+2023-2월-02 16:55:01 INFO  [restartedMain] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.
+2023-2월-02 16:55:01 INFO  [restartedMain] [org.apache.juli.logging.DirectJDKLog] - Stopping service [Tomcat]
+2023-2월-02 16:55:01 INFO  [restartedMain] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-2월-02 16:55:01 ERROR [restartedMain] [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.ssafy.wedding101.controller.MediaRestController required a bean of type 'com.ssafy.wedding101.model.service.MediaService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.ssafy.wedding101.model.service.MediaService' in your configuration.
+

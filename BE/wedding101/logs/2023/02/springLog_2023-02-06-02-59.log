@@ -1,0 +1,4 @@
+2023-2월-06 14:59:01 INFO  [http-nio-8080-exec-1] [org.apache.juli.logging.DirectJDKLog] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-2월-06 14:59:01 INFO  [http-nio-8080-exec-1] [org.springframework.web.servlet.FrameworkServlet] - Initializing Servlet 'dispatcherServlet'
+2023-2월-06 14:59:01 INFO  [http-nio-8080-exec-1] [org.springframework.web.servlet.FrameworkServlet] - Completed initialization in 1 ms
+2023-2월-06 14:59:02 INFO  [http-nio-8080-exec-3] [org.springdoc.api.AbstractOpenApiResource] - Init duration for springdoc-openapi is: 253 ms

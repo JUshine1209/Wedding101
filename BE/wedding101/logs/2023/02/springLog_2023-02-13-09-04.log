@@ -1,0 +1,31 @@
+2023-2월-13 09:04:00 INFO  [restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-2월-13 09:04:00 INFO  [restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 91 ms. Found 6 JPA repository interfaces.
+2023-2월-13 09:04:00 INFO  [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 9090 (http)
+2023-2월-13 09:04:01 INFO  [restartedMain] [org.apache.juli.logging.DirectJDKLog] - Initializing ProtocolHandler ["http-nio-9090"]
+2023-2월-13 09:04:01 INFO  [restartedMain] [org.apache.juli.logging.DirectJDKLog] - Starting service [Tomcat]
+2023-2월-13 09:04:01 INFO  [restartedMain] [org.apache.juli.logging.DirectJDKLog] - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-2월-13 09:04:01 INFO  [restartedMain] [org.apache.juli.logging.DirectJDKLog] - Initializing Spring embedded WebApplicationContext
+2023-2월-13 09:04:01 INFO  [restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 2067 ms
+2023-2월-13 09:04:01 INFO  [restartedMain] [org.hibernate.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-2월-13 09:04:01 INFO  [restartedMain] [org.hibernate.Version] - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-2월-13 09:04:01 INFO  [restartedMain] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-2월-13 09:04:01 INFO  [restartedMain] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2023-2월-13 09:04:02 INFO  [restartedMain] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+2023-2월-13 09:04:02 INFO  [restartedMain] [org.hibernate.dialect.Dialect] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-2월-13 09:04:03 INFO  [restartedMain] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-2월-13 09:04:03 INFO  [restartedMain] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-2월-13 09:04:04 INFO  [restartedMain] [net.bramp.ffmpeg.RunProcessFunction] - /C:/Users/SSAFY/Desktop/workspace/S08P12A101/BE/wedding101/out/production/resources/ffmpeg/bin/ffmpeg.exe -version
+2023-2월-13 09:04:04 INFO  [restartedMain] [org.springframework.security.web.DefaultSecurityFilterChain] - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3594bc6b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2d813282, org.springframework.security.web.context.SecurityContextPersistenceFilter@74852e2c, org.springframework.security.web.header.HeaderWriterFilter@6e9b1e0c, org.springframework.web.filter.CorsFilter@21310b7d, org.springframework.security.web.authentication.logout.LogoutFilter@45e8f56e, com.ssafy.wedding101.filter.JwtAuthenticationFilter@22105c69, com.ssafy.wedding101.filter.JwtAuthorizationFilter@3845a017, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7daecab8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@446d48e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@46d9726c, org.springframework.security.web.session.SessionManagementFilter@1c364612, org.springframework.security.web.access.ExceptionTranslationFilter@3bee6548, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@37304343]
+2023-2월-13 09:04:04 WARN  [restartedMain] [org.springframework.security.config.annotation.web.builders.WebSecurity] - You are asking Spring Security to ignore Ant [pattern='/swagger-ui/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2023-2월-13 09:04:04 INFO  [restartedMain] [org.springframework.security.web.DefaultSecurityFilterChain] - Will not secure Ant [pattern='/swagger-ui/**']
+2023-2월-13 09:04:04 WARN  [restartedMain] [org.springframework.security.config.annotation.web.builders.WebSecurity] - You are asking Spring Security to ignore Ant [pattern='/v3/api-docs/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2023-2월-13 09:04:04 INFO  [restartedMain] [org.springframework.security.web.DefaultSecurityFilterChain] - Will not secure Ant [pattern='/v3/api-docs/**']
+2023-2월-13 09:04:04 WARN  [restartedMain] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-2월-13 09:04:05 INFO  [restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] - Adding welcome page: class path resource [static/index.html]
+2023-2월-13 09:04:06 INFO  [restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2023-2월-13 09:04:06 INFO  [restartedMain] [org.apache.juli.logging.DirectJDKLog] - Starting ProtocolHandler ["http-nio-9090"]
+2023-2월-13 09:04:06 INFO  [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 9090 (http) with context path ''
+2023-2월-13 09:04:06 INFO  [restartedMain] [org.springframework.boot.StartupInfoLogger] - Started Wedding101Application in 7.572 seconds (JVM running for 9.414)
+2023-2월-13 09:04:16 INFO  [http-nio-9090-exec-1] [org.apache.juli.logging.DirectJDKLog] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-2월-13 09:04:16 INFO  [http-nio-9090-exec-1] [org.springframework.web.servlet.FrameworkServlet] - Initializing Servlet 'dispatcherServlet'
+2023-2월-13 09:04:16 INFO  [http-nio-9090-exec-1] [org.springframework.web.servlet.FrameworkServlet] - Completed initialization in 1 ms

@@ -1,0 +1,2 @@
+2023-2월-02 17:45:00 WARN  [http-nio-8085-exec-2] [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] - SQL Error: 1364, SQLState: HY000
+2023-2월-02 17:45:00 ERROR [http-nio-8085-exec-2] [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] - Field 'album_seq' doesn't have a default value

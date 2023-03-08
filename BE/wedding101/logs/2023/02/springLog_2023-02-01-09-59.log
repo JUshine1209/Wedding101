@@ -1,0 +1,8 @@
+2023-2월-01 09:59:00 INFO  [restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2023-2월-01 09:59:00 INFO  [restartedMain] [org.apache.juli.logging.DirectJDKLog] - Starting ProtocolHandler ["http-nio-8081"]
+2023-2월-01 09:59:00 INFO  [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 8081 (http) with context path ''
+2023-2월-01 09:59:00 INFO  [restartedMain] [org.springframework.boot.StartupInfoLogger] - Started Wedding101Application in 3.706 seconds (JVM running for 4.571)
+2023-2월-01 09:59:12 INFO  [http-nio-8081-exec-1] [org.apache.juli.logging.DirectJDKLog] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-2월-01 09:59:12 INFO  [http-nio-8081-exec-1] [org.springframework.web.servlet.FrameworkServlet] - Initializing Servlet 'dispatcherServlet'
+2023-2월-01 09:59:12 INFO  [http-nio-8081-exec-1] [org.springframework.web.servlet.FrameworkServlet] - Completed initialization in 1 ms
+2023-2월-01 09:59:12 INFO  [http-nio-8081-exec-5] [org.springdoc.api.AbstractOpenApiResource] - Init duration for springdoc-openapi is: 164 ms

@@ -1,0 +1,47 @@
+.main-area04 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 92vh;
+  padding-bottom: 8vh;
+  background-color: #d9cfde;
+}
+
+.service-content-wrapper {
+  height:115%;
+}
+
+.content-wrapper {
+  height:75%;
+}
+
+#VL_p4_01 {
+  height: 100%;
+  width: 100%;
+}
+
+.MuiStep-root ul {
+  position: relative;
+  left: 23%;
+}
+
+.MuiStepLabel-root span {
+  font-family: "Nanum Brush Script";
+  color: balck;
+  text-shadow: 1px 1px 2px gray;
+  font-size: 3.5vh;
+
+}
+
+.level-content {
+  font-family: "sans-serif";
+  color: balck;
+  text-shadow: 1px 1px 1px gray;
+  font-size: 2vh;
+  line-height: 2.3;
+  margin-top: 7%;
+}
+
+.level-content-item {
+  list-style-image: url("data:image/svg+xml;charset=UTF-8,<svg xmlns='http://www.w3.org/2000/svg' height='20' width='20' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2'><polyline points='20 6 9 17 4 12'></polyline></svg>");
+}

@@ -1,0 +1,2 @@
+2023-2월-06 16:06:32 WARN  [http-nio-8080-exec-4] [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] - SQL Error: 1406, SQLState: 22001
+2023-2월-06 16:06:32 ERROR [http-nio-8080-exec-4] [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] - Data truncation: Data too long for column 'media_receiver' at row 1

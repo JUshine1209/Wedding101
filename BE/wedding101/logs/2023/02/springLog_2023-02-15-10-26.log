@@ -1,0 +1,8 @@
+2023-2월-15 10:26:00 INFO  [http-nio-9090-exec-1] [org.apache.juli.logging.DirectJDKLog] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-2월-15 10:26:00 INFO  [http-nio-9090-exec-1] [org.springframework.web.servlet.FrameworkServlet] - Initializing Servlet 'dispatcherServlet'
+2023-2월-15 10:26:00 INFO  [http-nio-9090-exec-1] [org.springframework.web.servlet.FrameworkServlet] - Completed initialization in 2 ms
+2023-2월-15 10:26:00 WARN  [http-nio-9090-exec-1] [org.springframework.web.servlet.DispatcherServlet] - No mapping for GET /user/exist/id/
+2023-2월-15 10:26:43 WARN  [http-nio-9090-exec-4] [org.springframework.web.servlet.DispatcherServlet] - No mapping for GET /user/exist/id/
+2023-2월-15 10:26:58 INFO  [SpringApplicationShutdownHook] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-2월-15 10:26:58 INFO  [SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+2023-2월-15 10:26:59 INFO  [SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.

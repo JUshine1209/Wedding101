@@ -1,0 +1,12 @@
+.user-mypage {
+    background-color: #D9CFDE;
+    width: 1920px;
+    height: 980px;
+    }
+
+.user-mypage-items {
+    padding-top: 5%;
+    display: flex;
+    align-items: flex-start;
+}
+

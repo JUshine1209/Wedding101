@@ -1,0 +1,4 @@
+2023-2월-08 13:30:16 WARN  [http-nio-8080-exec-4] [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] - SQL Error: 1364, SQLState: HY000
+2023-2월-08 13:30:16 ERROR [http-nio-8080-exec-4] [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] - Field 'user_id' doesn't have a default value
+2023-2월-08 13:30:16 WARN  [http-nio-8080-exec-3] [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] - SQL Error: 1364, SQLState: HY000
+2023-2월-08 13:30:16 ERROR [http-nio-8080-exec-3] [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] - Field 'user_id' doesn't have a default value

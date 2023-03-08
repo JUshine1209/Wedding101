@@ -1,0 +1,5 @@
+2023-2월-14 14:24:00 INFO  [restartedMain] [org.springframework.boot.StartupInfoLogger] - Started Wedding101Application in 7.274 seconds (JVM running for 8.766)
+2023-2월-14 14:24:01 INFO  [http-nio-9090-exec-2] [org.apache.juli.logging.DirectJDKLog] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-2월-14 14:24:01 INFO  [http-nio-9090-exec-2] [org.springframework.web.servlet.FrameworkServlet] - Initializing Servlet 'dispatcherServlet'
+2023-2월-14 14:24:01 INFO  [http-nio-9090-exec-2] [org.springframework.web.servlet.FrameworkServlet] - Completed initialization in 2 ms
+2023-2월-14 14:24:17 INFO  [http-nio-9090-exec-6] [net.bramp.ffmpeg.RunProcessFunction] - /C:/Users/SSAFY/Desktop/workspace/S08P12A101/BE/wedding101/out/production/resources/ffmpeg/bin/ffmpeg.exe -y -v error -ss 00:00:01 -i https://a101-wedding101-pjt.s3.ap-northeast-2.amazonaws.com/dudwls624/media/video3a95ae71-a812-4f46-974f-a327ef3c18ce.mp4 -vframes 1 C:/Users/SSAFY/Desktop/temp/thumbnail.jpg

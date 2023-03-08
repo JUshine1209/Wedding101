@@ -1,0 +1,47 @@
+.album-list {
+  background-color: #c5dad1;
+  height: auto;
+  min-height: 100%;
+  padding: 5%;
+  padding-bottom: 5px;
+}
+.nav-text {
+  font-family: 'Bakbak One';
+}
+.list-navbar {
+  text-align: center;
+  align-items: center;
+}
+.item-area{
+  align-items: center;
+}
+.media-items {
+  display: flex;
+  flex-wrap: wrap; /*크기변형없이 한줄 넘으면 다음줄로*/
+  justify-content: center;
+  background-color: bisque;
+  box-shadow: 5px 5px rgb(203, 162, 86);
+
+  border-radius: 5%;
+  max-width: 830px;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.send-request {
+  cursor: pointer;
+}
+.filter-icons {
+  display: flex;
+  justify-content: center;
+}
+.bin-icon {
+  position: absolute;
+  top: 90%;
+}
+.view-all-media {
+  display: inline;
+  font-weight: 500;
+}

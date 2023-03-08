@@ -1,0 +1,6 @@
+2023-2월-02 21:27:10 INFO  [http-nio-8080-exec-1] [org.apache.juli.logging.DirectJDKLog] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-2월-02 21:27:10 INFO  [http-nio-8080-exec-1] [org.springframework.web.servlet.FrameworkServlet] - Initializing Servlet 'dispatcherServlet'
+2023-2월-02 21:27:10 INFO  [http-nio-8080-exec-1] [org.springframework.web.servlet.FrameworkServlet] - Completed initialization in 1 ms
+2023-2월-02 21:27:10 INFO  [http-nio-8080-exec-10] [org.springdoc.api.AbstractOpenApiResource] - Init duration for springdoc-openapi is: 220 ms
+2023-2월-02 21:27:20 WARN  [http-nio-8080-exec-2] [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] - SQL Error: 1364, SQLState: HY000
+2023-2월-02 21:27:20 ERROR [http-nio-8080-exec-2] [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] - Field 'album_seq' doesn't have a default value

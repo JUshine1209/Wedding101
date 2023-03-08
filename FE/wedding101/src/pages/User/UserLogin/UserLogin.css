@@ -1,0 +1,8 @@
+.user-login {
+    background-color: #D9CFDE;
+    width: 100%;
+    }
+.loginimg {
+    display: flex;
+    overflow: hidden;
+}

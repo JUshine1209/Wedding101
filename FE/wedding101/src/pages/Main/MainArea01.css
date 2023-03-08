@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Nanum+Brush+Script&family=Yusei+Magic&display=swap');
+
+.main-area01 {
+  display: flex;
+  margin-top: 8vh;
+  padding-bottom: 8vh;
+  height: 92vh;
+  background-color: #ffc0bb;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 90vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.emptyBox{
+  height:100%;
+}
+.title_explain{
+ display: flex;
+ justify-content: flex-start;
+ flex-direction: column;
+ height:50%;
+}
+.mainTitle{
+  height: 25%;
+  font-family: 'Bakbak One';
+  font-size:7vh;
+}
+.explainText{
+  height: 75%;
+}
+.verticalLayout {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.horizontalLayout{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+img {
+  height: 100%;
+  overflow: hidden;
+}
+#explain_p1_01{
+  font-family: "Nanum Brush Script";
+  color: white;
+  text-shadow: 2px 2px 4px gray;
+  font-size: 8vh;
+}
+#VL_p1_01{
+  width: auto;
+  height:100%;
+}
+#VL_p1_02{
+  position: relative;
+  left: 1%;
+  height:100%;
+}
+#HL_p1_01{
+  width: auto;
+  height:50%;
+}
+#HL_p1_02{
+  width:100%;
+  height:50%;
+  justify-content: flex-end;
+}
+#HL_p1_03{
+  height:50%;
+}
+#container_main01{
+  object-fit: scale-down;
+  overflow: visible;
+}

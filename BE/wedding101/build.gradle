@@ -1,0 +1,88 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '2.7.8'
+    id 'io.spring.dependency-management' version '1.0.15.RELEASE'
+}
+
+group = 'com.ssafy'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
+
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+    //logback 종속성 제거
+    all {
+        exclude group: 'org.springframework.boot', module: 'spring-boot-starter-logging'
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+compileJava.options.encoding = 'UTF-8'
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+tasks.withType(Test) {
+    defaultCharacterEncoding = "UTF-8"
+}
+
+tasks.withType(Javadoc){
+    options.encoding = "UTF-8"
+}
+
+dependencies {
+    // Spring Cloud Starter AWS
+    implementation 'io.awspring.cloud:spring-cloud-starter-aws:2.4.4'
+    // lombok
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+    // spring data JPA
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    // MySQL connector j
+    runtimeOnly 'com.mysql:mysql-connector-j'
+    // spring security
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+    // Jwt
+    implementation 'io.jsonwebtoken:jjwt-api:0.11.5'
+    implementation 'io.jsonwebtoken:jjwt-impl:0.11.5'
+    implementation 'io.jsonwebtoken:jjwt-jackson:0.11.5'
+    // spring oauth client2
+//    implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
+    // spring boot starter web
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    // spring boot devtools
+    developmentOnly 'org.springframework.boot:spring-boot-devtools'
+    // spring test 관련
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation 'org.springframework.security:spring-security-test'
+    // Swagger Ui
+    // Swagger-ui
+    implementation("io.springfox:springfox-boot-starter:3.0.0")
+    implementation("io.springfox:springfox-swagger-ui:3.0.0")
+    // logback
+//    implementation 'org.springframework.boot::spring-boot-starter-web'
+    // ffmpeg
+    implementation 'net.bramp.ffmpeg:ffmpeg:0.7.0'
+    implementation 'org.bytedeco:javacv-platform:1.5.7'
+    implementation 'org.bytedeco:ffmpeg:5.0-1.5.7'
+    implementation 'org.bytedeco:javacpp:1.5.7'
+    
+    // log4j2
+    implementation 'org.springframework.boot:spring-boot-starter-log4j2'
+    //유효성 검사 처리
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
+}
+
+
+jar {
+	    enabled = false
+}
+
+test{
+    useJUnitPlatform()
+}

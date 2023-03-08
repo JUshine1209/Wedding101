@@ -1,0 +1,127 @@
+.main-area02 {
+  display: flex;
+  margin-top: 8vh;
+  padding-bottom: 8vh;
+  height: 92vh;
+  background-color: #fff4f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.detailLayout{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 50%;
+}
+
+.detailButton{
+  width: 100%;
+  height: 25%;
+  border-radius: 4vh;
+  border-width: 0px;
+  font-size: 3vh;
+  background-color: #FFD556;
+}
+
+.exampleSlider{
+  display: flex;
+  flex-grow: 2;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-slider {
+  position: relative;
+  height: 80%;
+  width: 70%;
+  left: 3.17%;
+}
+
+.phoneFrame{
+  position: absolute;
+  top: 4.7%;
+  left: 56.23%;
+  height: 80%;
+}
+
+.imgContainer{
+  height: 61.35vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inFrame{
+  width: 64.328%;
+  height: 80%;
+  object-fit: fill;
+  opacity: 0.75;
+}
+
+.main-slider .slick-current .inFrame{
+  width: 80.41%;
+  height: 100%;
+  object-fit: fill;
+  opacity: 1;
+}
+
+.main-slider .slick-dots{
+  position: relative;
+  right: 75.6%;
+  bottom: 4%;
+}
+.slick-dots li button::before{
+  font-size: 1.5vh;
+}
+
+.slick-prev{
+  left: 0;
+  top:45%;
+  z-index: 999;
+}
+.slick-prev::before{
+  font-size: 6vh;
+  color:#B3B3B3;
+  opacity: 1;
+}
+
+.slick-next{
+  right: 2%;
+  top:45%;
+}
+.slick-next::before{
+  font-size: 6vh;
+  color:#B3B3B3;
+  opacity: 1;
+}
+.explainText{
+  /* height: 10%; */
+}
+
+#HL_p2_01{
+  width: 100%;
+  height:100%;
+}
+#HL_p2_02{
+  width:100%;
+  justify-content: space-around;
+}
+#VL_p2_01{
+  height:100%;
+  justify-content: space-between;
+}
+
+#title_p2_01{
+  width:100%;
+  height: 50%;
+}
+
+#explain_p2_01{
+  font-family: "Nanum Brush Script";
+  color: white;
+  text-shadow: 2px 2px 4px gray;
+  font-size: 6vh;
+}

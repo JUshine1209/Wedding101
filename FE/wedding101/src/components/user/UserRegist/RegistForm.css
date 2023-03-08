@@ -1,0 +1,9 @@
+#loginForm {
+    justify-content: space-between;
+    align-items: start;
+}
+
+#loginFormHL {
+    width: 70%;
+    justify-content: flex-start;
+}

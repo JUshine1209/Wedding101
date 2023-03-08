@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Nanum+Brush+Script&family=Yusei+Magic&display=swap');
+
+.album-cover {
+  background-color: #c5dad1;
+  height: 70vh;
+  padding: 5%;
+}
+.nav-text {
+  font-family: 'Bakbak One';
+}
+.cover-album {
+  background-color: transparent;
+  width: 500px;
+  height: 550px;
+  cursor: pointer;
+  border-radius: 5%;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+.cover-album-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.cover-album:hover .cover-album-inner {
+  transform: rotateY(-180deg);
+}
+.cover-front,
+.cover-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+.cover-front {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+  border-radius: 5%;
+  box-shadow: 5px 5px rgb(203, 162, 86);
+}
+.cover-back {
+  background-color: bisque;
+  align-items: center;
+  border-radius: 5%;
+  box-shadow: 5px 5px rgb(203, 162, 86);
+  font-size: 25pt;
+  transform: rotateY(-180deg);
+}
+.cover-back img {
+  width: fit-content;
+  height: 200px;
+}
+.album-img {
+  margin: auto;
+  position: absolute;
+  top: 10%;
+}
+.media-area img {
+  padding-top: 5%;
+  width: 400px;
+  border-radius: 5%;
+}
+.cover-id {
+  font-size: 30pt;
+  font-weight: bold;
+  font-family: 'Nanum Brush Script';
+  margin: auto;
+  position: absolute;
+  top: 80%;
+}
+
+.upload-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.open-album {
+  font-family: 'Nanum Brush Script';
+}
+.unify-button {
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+}
+.days {
+  font-weight: bold;
+}
+.move-review {
+  cursor: pointer;
+}

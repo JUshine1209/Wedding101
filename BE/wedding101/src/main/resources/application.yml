@@ -1,0 +1,80 @@
+# Spring boot server port set
+server:
+  port: 9090
+  forward-headers-strategy: framework
+
+spring:
+  # ?????? ?? - MySQL
+  datasource:
+    url: jdbc:mysql://i8a101.p.ssafy.io:3306/wedding101_db?characterEncoding=UTF-8&amp&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: ssafy
+
+  profiles:
+    include: db
+
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+  # JPA ??
+  jpa:
+    database: mysql
+    hibernate:
+      ddl-auto: update
+      use-new-id-generator-mappings: true
+    generate-ddl: true
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+
+  jackson:
+    serialization:
+      fail-on-empty-beans: false
+
+  servlet:
+    multipart:
+      max-file-size: 70MB
+      max-request-size: 70MB
+
+#spring.jpa.show-sql=true
+
+#springdoc:
+#  swagger-ui:
+#    path: /swagger-ui/index.html
+#    groups-order: desc
+#    operations-sorter: method
+#    disable-swagger-default-url: true
+#    display-request-duration: true
+#
+#  api-docs:
+#    path: /api-docs
+#
+#  show-actuator:  true
+#  default-consumes-media-type: application/json
+#  default-produces-media-type: application/json
+#  paths-to-match: /**
+
+
+cloud:
+  aws:
+    s3:
+      bucket: a101-wedding101-pjt
+    credentials:
+      access-key: AKIASAR2BR5LCYLEDGWM
+      secret-key: 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
+    region:
+      static: ap-northeast-2
+      auto: false
+    stack:
+      auto: false
+
+
+logging:
+  level:
+    com:
+      amazonaws:
+        util:
+          EC2MetadataUtils: ERROR
+
+jwt:
+  secret-key: VlwEyVBsYt9V7zq57TejMnVUyzblYcfPQye08f7MGVA9XkHa

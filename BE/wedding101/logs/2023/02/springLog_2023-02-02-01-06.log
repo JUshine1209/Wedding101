@@ -1,0 +1,7 @@
+2023-2월-02 13:06:15 INFO  [http-nio-8085-exec-1] [org.apache.juli.logging.DirectJDKLog] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-2월-02 13:06:15 INFO  [http-nio-8085-exec-1] [org.springframework.web.servlet.FrameworkServlet] - Initializing Servlet 'dispatcherServlet'
+2023-2월-02 13:06:15 INFO  [http-nio-8085-exec-1] [org.springframework.web.servlet.FrameworkServlet] - Completed initialization in 0 ms
+2023-2월-02 13:06:16 INFO  [http-nio-8085-exec-8] [org.springdoc.api.AbstractOpenApiResource] - Init duration for springdoc-openapi is: 277 ms
+2023-2월-02 13:06:57 INFO  [SpringApplicationShutdownHook] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-2월-02 13:06:57 INFO  [SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+2023-2월-02 13:06:57 INFO  [SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.

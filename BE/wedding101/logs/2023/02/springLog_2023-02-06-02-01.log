@@ -1,0 +1,27 @@
+2023-2월-06 14:01:25 INFO  [http-nio-8080-exec-2] [org.apache.juli.logging.DirectJDKLog] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-2월-06 14:01:25 INFO  [http-nio-8080-exec-2] [org.springframework.web.servlet.FrameworkServlet] - Initializing Servlet 'dispatcherServlet'
+2023-2월-06 14:01:25 INFO  [http-nio-8080-exec-2] [org.springframework.web.servlet.FrameworkServlet] - Completed initialization in 1 ms
+2023-2월-06 14:01:49 INFO  [SpringApplicationShutdownHook] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-2월-06 14:01:49 INFO  [SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+2023-2월-06 14:01:49 INFO  [SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.
+2023-2월-06 14:01:56 INFO  [background-preinit] [org.hibernate.validator.internal.util.Version] - HV000001: Hibernate Validator 6.2.5.Final
+2023-2월-06 14:01:56 INFO  [restartedMain] [org.springframework.boot.StartupInfoLogger] - Starting Wedding101Application using Java 17.0.6 on DESKTOP-DOGVPUB with PID 6868 (C:\Users\SSAFY\Desktop\workspace\S08P12A101\BE\wedding101\build\classes\java\main started by SSAFY in C:\Users\SSAFY\Desktop\workspace\S08P12A101\BE\wedding101)
+2023-2월-06 14:01:56 INFO  [restartedMain] [org.springframework.boot.SpringApplication] - The following 1 profile is active: "db"
+2023-2월-06 14:01:56 INFO  [restartedMain] [org.springframework.boot.logging.DeferredLog] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-2월-06 14:01:56 INFO  [restartedMain] [org.springframework.boot.logging.DeferredLog] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-2월-06 14:01:57 INFO  [restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-2월-06 14:01:57 INFO  [restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 64 ms. Found 5 JPA repository interfaces.
+2023-2월-06 14:01:57 INFO  [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8080 (http)
+2023-2월-06 14:01:57 INFO  [restartedMain] [org.apache.juli.logging.DirectJDKLog] - Initializing ProtocolHandler ["http-nio-8080"]
+2023-2월-06 14:01:57 INFO  [restartedMain] [org.apache.juli.logging.DirectJDKLog] - Starting service [Tomcat]
+2023-2월-06 14:01:57 INFO  [restartedMain] [org.apache.juli.logging.DirectJDKLog] - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-2월-06 14:01:57 INFO  [restartedMain] [org.apache.juli.logging.DirectJDKLog] - Initializing Spring embedded WebApplicationContext
+2023-2월-06 14:01:57 INFO  [restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1635 ms
+2023-2월-06 14:01:57 INFO  [restartedMain] [org.hibernate.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-2월-06 14:01:58 INFO  [restartedMain] [org.hibernate.Version] - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-2월-06 14:01:58 INFO  [restartedMain] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-2월-06 14:01:58 INFO  [restartedMain] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2023-2월-06 14:01:58 INFO  [restartedMain] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+2023-2월-06 14:01:58 INFO  [restartedMain] [org.hibernate.dialect.Dialect] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-2월-06 14:01:59 INFO  [restartedMain] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-2월-06 14:01:59 INFO  [restartedMain] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'

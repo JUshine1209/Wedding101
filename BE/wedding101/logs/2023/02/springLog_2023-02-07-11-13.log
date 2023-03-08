@@ -1,0 +1,5 @@
+2023-2월-07 11:13:12 INFO  [http-nio-8080-exec-4] [org.springdoc.api.AbstractOpenApiResource] - Init duration for springdoc-openapi is: 192 ms
+2023-2월-07 11:13:28 WARN  [http-nio-8080-exec-6] [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] - SQL Error: 1364, SQLState: HY000
+2023-2월-07 11:13:28 ERROR [http-nio-8080-exec-6] [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] - Field 'user_name' doesn't have a default value
+2023-2월-07 11:13:41 WARN  [http-nio-8080-exec-3] [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] - SQL Error: 1364, SQLState: HY000
+2023-2월-07 11:13:41 ERROR [http-nio-8080-exec-3] [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] - Field 'user_name' doesn't have a default value

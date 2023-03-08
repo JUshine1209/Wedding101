@@ -1,0 +1,13 @@
+.footer {
+  background-color: #ffffff;
+  width: 100%;
+  height: 5px;
+  position: relative;
+  transform: translatY(-100%);
+}
+.a101 {
+  font-weight: bold;
+}
+.mock {
+  color: #ffffff;
+}

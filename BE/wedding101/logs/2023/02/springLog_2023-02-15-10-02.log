@@ -1,0 +1,2 @@
+2023-2월-15 10:02:19 WARN  [http-nio-9090-exec-6] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2023-2월-15 10:02:46 WARN  [http-nio-9090-exec-7] [org.springframework.web.servlet.DispatcherServlet] - No mapping for POST /user/exist/id/

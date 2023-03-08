@@ -1,0 +1,13 @@
+.service-process02 {
+    background-color: #fff4f3;
+    padding-top: 8vh;
+    height: 88vh;
+    padding-bottom: 22vh;
+    overflow: scroll;
+}
+
+.infoContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}

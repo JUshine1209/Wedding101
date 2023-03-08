@@ -1,0 +1,21 @@
+.scrollable-form {
+    overflow-y: auto;
+}
+
+/* 구분선  */
+.IM-Division-Line{
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding: 1.5px;
+    margin-right: 50%;
+    
+}

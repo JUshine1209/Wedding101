@@ -1,0 +1,3 @@
+2023-2월-13 09:14:02 INFO  [http-nio-9090-exec-1] [org.apache.juli.logging.DirectJDKLog] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-2월-13 09:14:02 INFO  [http-nio-9090-exec-1] [org.springframework.web.servlet.FrameworkServlet] - Initializing Servlet 'dispatcherServlet'
+2023-2월-13 09:14:02 INFO  [http-nio-9090-exec-1] [org.springframework.web.servlet.FrameworkServlet] - Completed initialization in 2 ms

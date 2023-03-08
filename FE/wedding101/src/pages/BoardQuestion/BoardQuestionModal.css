@@ -1,0 +1,118 @@
+.Modal {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Modal__content {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33); 
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  height: 80%;
+  width: 60%;
+  justify-content: center;
+  overflow: auto;
+  padding: 1rem;
+  font-size: x-large;
+  font-weight: bolder;
+  z-index: 1000;
+}
+
+/* Modal header */
+#Modal__header {
+  display: flex;
+  /* justify-content: space-between; */
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-bottom: 1px solid rgba(170, 170, 170, 0.5);
+  color: rgba(0, 0, 0, 0.80);
+  font-size: larger;
+  font-weight: bold;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+}
+
+#Modal__header__2 {
+  display: flex;
+  /* justify-content: space-between; */
+  margin-top: 2%;
+  margin-bottom: 1%;
+  border-bottom: 1px solid rgba(170, 170, 170, 0.5);
+  color: rgba(0, 0, 0, 0.80);
+  font-size: larger;
+  font-weight: bold;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+}
+
+/* Modal 의 작성자, 날짜 태그 CSS */
+.Modal_SubTitle{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1%;
+}
+
+.Modal_SubTitle_writer{
+  font-size: medium;
+  margin-left: 1.5%;
+}
+
+.Modal_SubTitle_date{
+  font-size: medium;
+  margin-right: 1.5%;
+}
+
+#Modal__title {
+  /* font-size: 1.5rem; */
+  font-weight: bold;
+  margin: 0;
+}
+
+#Modal__body {
+  margin-top: 1.5%;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
+  align-self: center;
+  height: 77%;
+  width: 95%;
+  overflow: auto;
+  padding: 1rem;
+}
+
+#Modal__body__2{
+  margin-top: 1.5%;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
+  align-self: center;
+  height: 77%;
+  width: 95%;
+  overflow: auto;
+  padding: 1rem;
+  margin-bottom: 1.5%;
+}
+
+#Modal__close-button {
+  background: transparent;
+  border: 0;
+  color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  font-size: 1.5rem;
+  padding: 0;
+}
+
+#Modal__close-button:hover {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+
+.Modal--closed {
+  display: none;
+}

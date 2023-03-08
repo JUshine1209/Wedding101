@@ -1,0 +1,1 @@
+2023-2월-14 16:43:32 WARN  [http-nio-9090-exec-6] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'text/plain;charset=UTF-8' not supported]

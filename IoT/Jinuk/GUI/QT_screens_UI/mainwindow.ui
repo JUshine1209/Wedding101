@@ -1,0 +1,2359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>960</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QStackedWidget" name="stackedWidget">
+     <property name="styleSheet">
+      <string notr="true">background: #FFF3C8;</string>
+     </property>
+     <property name="currentIndex">
+      <number>6</number>
+     </property>
+     <widget class="QWidget" name="srvc_chk_page">
+      <property name="styleSheet">
+       <string notr="true">background: #FFF3C8;</string>
+      </property>
+      <widget class="QFrame" name="srvc_chk_frame">
+       <property name="geometry">
+        <rect>
+         <x>64</x>
+         <y>48</y>
+         <width>1152</width>
+         <height>864</height>
+        </rect>
+       </property>
+       <property name="acceptDrops">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: #FFFFFF;
+border-radius: 80px;</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <property name="lineWidth">
+        <number>20</number>
+       </property>
+       <property name="midLineWidth">
+        <number>10</number>
+       </property>
+       <widget class="QPushButton" name="srvc_chk_button">
+        <property name="geometry">
+         <rect>
+          <x>522</x>
+          <y>620</y>
+          <width>108</width>
+          <height>108</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius: 50px;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="srvc_chk_label">
+        <property name="geometry">
+         <rect>
+          <x>391</x>
+          <y>190</y>
+          <width>370</width>
+          <height>80</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>36</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>서비스 코드 입력</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="srvc_chk_lineEdit">
+        <property name="geometry">
+         <rect>
+          <x>201</x>
+          <y>362</y>
+          <width>750</width>
+          <height>140</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>36</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:#D9D9D9;
+border-radius: 40px;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="home_page">
+      <property name="styleSheet">
+       <string notr="true">background:#FFEEEE;</string>
+      </property>
+      <widget class="QFrame" name="home_frame">
+       <property name="geometry">
+        <rect>
+         <x>64</x>
+         <y>48</y>
+         <width>1152</width>
+         <height>864</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background:#FFFFFF;border-radius:100px;</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QPushButton" name="home_next_button">
+        <property name="geometry">
+         <rect>
+          <x>396</x>
+          <y>630</y>
+          <width>360</width>
+          <height>120</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>48</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background: #FFAB7C;color: #FFFFFF;border-radius:50px;</string>
+        </property>
+        <property name="text">
+         <string>시작하기</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="home_background">
+        <property name="geometry">
+         <rect>
+          <x>58</x>
+          <y>90</y>
+          <width>1036</width>
+          <height>411</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>100</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="text">
+         <string>Welcome</string>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="home_text1">
+        <property name="geometry">
+         <rect>
+          <x>336</x>
+          <y>350</y>
+          <width>480</width>
+          <height>91</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>40</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>To the Wedding101</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="home_text2">
+        <property name="geometry">
+         <rect>
+          <x>91</x>
+          <y>500</y>
+          <width>970</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>24</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>신혼부부 OOO, OOO 님에게 기념사진이나 영상 편지를 남겨보세요</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="info_page">
+      <property name="styleSheet">
+       <string notr="true">background: #FFF3C8;</string>
+      </property>
+      <widget class="QFrame" name="info_frame">
+       <property name="geometry">
+        <rect>
+         <x>64</x>
+         <y>48</y>
+         <width>1152</width>
+         <height>864</height>
+        </rect>
+       </property>
+       <property name="acceptDrops">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: #FFFFFF;
+border-radius: 80px;</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <property name="lineWidth">
+        <number>20</number>
+       </property>
+       <property name="midLineWidth">
+        <number>10</number>
+       </property>
+       <widget class="QLabel" name="info_title">
+        <property name="geometry">
+         <rect>
+          <x>354</x>
+          <y>50</y>
+          <width>444</width>
+          <height>120</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>60</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Wedding101</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="info_image1">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>300</y>
+          <width>375</width>
+          <height>445</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>image1</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="info_image2">
+        <property name="geometry">
+         <rect>
+          <x>440</x>
+          <y>300</y>
+          <width>375</width>
+          <height>445</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>image2</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="info_next_button">
+        <property name="geometry">
+         <rect>
+          <x>920</x>
+          <y>590</y>
+          <width>108</width>
+          <height>108</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QWidget" name="verticalLayoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>850</x>
+          <y>350</y>
+          <width>251</width>
+          <height>191</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="info_vLayout">
+         <item>
+          <widget class="QLabel" name="info_desc1">
+           <property name="font">
+            <font>
+             <pointsize>21</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>부부에게</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="info_desc2">
+           <property name="font">
+            <font>
+             <pointsize>21</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>기념 사진과</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="info_desc3">
+           <property name="font">
+            <font>
+             <pointsize>21</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>영상 편지를</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="info_desc4">
+           <property name="font">
+            <font>
+             <pointsize>21</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>남겨보세요</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="agreement_page">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <widget class="QFrame" name="agreement_frame">
+       <property name="geometry">
+        <rect>
+         <x>64</x>
+         <y>48</y>
+         <width>1152</width>
+         <height>864</height>
+        </rect>
+       </property>
+       <property name="acceptDrops">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: #FFFFFF;
+border-radius: 80px;</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <property name="lineWidth">
+        <number>20</number>
+       </property>
+       <property name="midLineWidth">
+        <number>10</number>
+       </property>
+       <widget class="QLabel" name="agreement_title">
+        <property name="geometry">
+         <rect>
+          <x>270</x>
+          <y>20</y>
+          <width>621</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>32</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>개인정보 및 초상권 사용 동의서</string>
+        </property>
+       </widget>
+       <widget class="QTextBrowser" name="agreement_textBrowser1">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>130</y>
+          <width>881</width>
+          <height>261</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:1px solid black; border-radius:0;</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="html">
+         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'맑은 고딕'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt;개인정보 수집 및 활용 동의&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:20pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:18pt;&quot;&gt;제공하는 개인정보의 항목&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Wedding101은 다음의 개인정보를 제공받고자 합니다.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt; - 성명&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:16pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:18pt;&quot;&gt;개인정보 수집 및 활용 목적&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Wedding101은 다음과 같은 이유로 개인정보를 제공받고자 합니다.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- 사진/영상 촬영자 확인 및 서비스 신청자에게 제공&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:16pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:18pt;&quot;&gt;개인정보 활용 및 보유기간&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- 제공받은 개인정보의 활용 및 보유기간은 촬영 완료시부터 6개월까지 활용될 수 있으며 이후 파기됩니다.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;- 개인정보는 정보주체의 동의 없이 동의한 내용 외의 다른 목적으로 활용하거나 제3자에게 제공 및 활용되지 않습니다.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:20pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:700;&quot;&gt;귀하는 이에 대한 동의를 거부할 수 있으며 단, 동의가 없을 경우 Wedding101 서비스 이용이 불가능할 수 있음을 알려드립니다.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="textInteractionFlags">
+         <set>Qt::LinksAccessibleByKeyboard|Qt::LinksAccessibleByMouse</set>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="agreement_checkBox1">
+        <property name="geometry">
+         <rect>
+          <x>1000</x>
+          <y>220</y>
+          <width>101</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>동의</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>16</width>
+          <height>16</height>
+         </size>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+        <property name="tristate">
+         <bool>false</bool>
+        </property>
+       </widget>
+       <widget class="QTextBrowser" name="agreement_textBrowser2">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>430</y>
+          <width>881</width>
+          <height>261</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:1px solid black; border-radius:0;</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::Box</enum>
+        </property>
+        <property name="lineWidth">
+         <number>2</number>
+        </property>
+        <property name="midLineWidth">
+         <number>0</number>
+        </property>
+        <property name="html">
+         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'맑은 고딕'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt;초상권 사용 동의서&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:20pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Wedding101 부스에서 촬영된 사용자의 사진과 동영상은 서비스 신청자의 Wed101 앨범 자료로 사용될 수 있습니다.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:16pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;사용자에 대한 초상권은 Wedding101 측 이외의 다른 기관이나 기업에 공개되지 않으며, 서비스 신청자에게만 활용되도록 철저히 관리 운영됩니다.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:16pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:700;&quot;&gt;귀하는 이에 대한 동의를 거부할 수 있으며 단, 동의가 없을 경우 이와 관련된 행사 참여가 불가능할 수 있음을 알려드립니다.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="textInteractionFlags">
+         <set>Qt::LinksAccessibleByKeyboard|Qt::LinksAccessibleByMouse</set>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="agreement_checkBox2">
+        <property name="geometry">
+         <rect>
+          <x>1000</x>
+          <y>520</y>
+          <width>101</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>동의</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>16</width>
+          <height>16</height>
+         </size>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+        <property name="tristate">
+         <bool>false</bool>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="agreement_next_button">
+        <property name="geometry">
+         <rect>
+          <x>522</x>
+          <y>720</y>
+          <width>108</width>
+          <height>108</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="input_page">
+      <widget class="QFrame" name="input_frame">
+       <property name="geometry">
+        <rect>
+         <x>64</x>
+         <y>48</y>
+         <width>1152</width>
+         <height>864</height>
+        </rect>
+       </property>
+       <property name="acceptDrops">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: #FFFFFF;
+border-radius: 80px;</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <property name="lineWidth">
+        <number>20</number>
+       </property>
+       <property name="midLineWidth">
+        <number>10</number>
+       </property>
+       <widget class="QLabel" name="input_title">
+        <property name="geometry">
+         <rect>
+          <x>261</x>
+          <y>50</y>
+          <width>630</width>
+          <height>90</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>50</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>정보를 입력해주세요</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="verticalLayoutWidget_3">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>200</y>
+          <width>781</width>
+          <height>521</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="input_vLayout">
+         <item>
+          <layout class="QHBoxLayout" name="input_hLayout1">
+           <item>
+            <widget class="QLabel" name="input_label1">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+               <horstretch>3</horstretch>
+               <verstretch>1</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>40</pointsize>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>이름 :</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="input_name_edit">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+               <horstretch>5</horstretch>
+               <verstretch>2</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>40</pointsize>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="focusPolicy">
+              <enum>Qt::ClickFocus</enum>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background:#FFAB7C;color:#FFFFFF;
+border-radius: 20px;
+border: 3px solid brown;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="placeholderText">
+              <string>입력하기</string>
+             </property>
+             <property name="clearButtonEnabled">
+              <bool>false</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="verticalSpacer">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Preferred</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>33</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="input_hLayout2">
+           <item>
+            <widget class="QLabel" name="input_label2">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+               <horstretch>3</horstretch>
+               <verstretch>1</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>40</pointsize>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>관계 :</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="input_relation_combo">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+               <horstretch>5</horstretch>
+               <verstretch>2</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>36</pointsize>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QComboBox{background:#FFAB7C;border-radius:20px;color:#FFFFFF;border:3px solid brown;padding-left:80px;}
+QComboBox::drop-down{right:50px; border:0px;}
+QComboBox::down-arrow{image:url(QT_Resources/Pics/down_arrow.png); width:50px; height:50px;}</string>
+             </property>
+             <property name="currentText">
+              <string>눌러서 선택</string>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>16</width>
+               <height>16</height>
+              </size>
+             </property>
+             <property name="frame">
+              <bool>true</bool>
+             </property>
+             <item>
+              <property name="text">
+               <string>눌러서 선택</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>가족</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>친인척</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>친구</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>동료</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>지인</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Preferred</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="input_hLayout3">
+           <item>
+            <widget class="QLabel" name="input_label3">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+               <horstretch>3</horstretch>
+               <verstretch>1</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>40</pointsize>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>대상 :</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="input_receiver_combo">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+               <horstretch>5</horstretch>
+               <verstretch>2</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>36</pointsize>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QComboBox{background:#FFAB7C;border-radius:20px;color:#FFFFFF;border:3px solid brown;padding-left:80px;}
+QComboBox::drop-down{right:50px; border:0px;}
+QComboBox::down-arrow{image:url(QT_Resources/Pics/down_arrow.png); width:50px; height:50px;}</string>
+             </property>
+             <property name="editable">
+              <bool>false</bool>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>16</width>
+               <height>16</height>
+              </size>
+             </property>
+             <property name="frame">
+              <bool>true</bool>
+             </property>
+             <item>
+              <property name="text">
+               <string>눌러서 선택</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>신랑</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>신부</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QPushButton" name="input_home_button">
+        <property name="geometry">
+         <rect>
+          <x>950</x>
+          <y>410</y>
+          <width>116</width>
+          <height>100</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="input_next_button">
+        <property name="geometry">
+         <rect>
+          <x>954</x>
+          <y>600</y>
+          <width>108</width>
+          <height>108</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="thanks_page">
+      <widget class="QFrame" name="thanks_frame">
+       <property name="geometry">
+        <rect>
+         <x>64</x>
+         <y>48</y>
+         <width>1152</width>
+         <height>864</height>
+        </rect>
+       </property>
+       <property name="acceptDrops">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: #FFFFFF;
+border-radius: 80px;</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <property name="lineWidth">
+        <number>20</number>
+       </property>
+       <property name="midLineWidth">
+        <number>10</number>
+       </property>
+       <widget class="QVideoWidget" name="thanks_video_screen" native="true">
+        <property name="geometry">
+         <rect>
+          <x>149</x>
+          <y>170</y>
+          <width>854</width>
+          <height>480</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:black;
+border-radius:0;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="thanks_title">
+        <property name="geometry">
+         <rect>
+          <x>280</x>
+          <y>50</y>
+          <width>600</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>40</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Thank you for visiting us</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="thanks_next_button">
+        <property name="geometry">
+         <rect>
+          <x>376</x>
+          <y>700</y>
+          <width>400</width>
+          <height>133</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>48</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:#FFAB7C;
+border-radius: 25;
+color: #FFFFFF;
+</string>
+        </property>
+        <property name="text">
+         <string>넘어가기</string>
+        </property>
+       </widget>
+       <widget class="QSlider" name="thanks_slider">
+        <property name="geometry">
+         <rect>
+          <x>149</x>
+          <y>652</y>
+          <width>854</width>
+          <height>18</height>
+         </rect>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="select_page">
+      <widget class="QPushButton" name="select_home_button">
+       <property name="geometry">
+        <rect>
+         <x>1115</x>
+         <y>580</y>
+         <width>123</width>
+         <height>107</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="select_title">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>40</y>
+         <width>700</width>
+         <height>90</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>36</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>선호하는 방식을 선택해 주세요</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="select_prev_button">
+       <property name="geometry">
+        <rect>
+         <x>1115</x>
+         <y>740</y>
+         <width>123</width>
+         <height>107</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QWidget" name="select_pic_widget" native="true">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>160</y>
+         <width>500</width>
+         <height>750</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: #FFFFFF; border-radius: 50px;</string>
+       </property>
+       <widget class="QPushButton" name="select_pic_button">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>620</y>
+          <width>300</width>
+          <height>100</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>40</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background: #FFAB7C;
+border-radius: 25px;
+color: #FFFFFF;</string>
+        </property>
+        <property name="text">
+         <string>사진 찍기</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="select_sample_img1">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>40</y>
+          <width>420</width>
+          <height>550</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>20</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="select_sample_opac1">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>40</y>
+          <width>420</width>
+          <height>550</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>20</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgba(128, 128, 128, 128);
+color:#FFFFFF;
+border-radius:0;</string>
+        </property>
+        <property name="text">
+         <string>사진을 찍고
+손글씨로
+축하 메시지를
+전해주세요</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="select_vid_widget" native="true">
+       <property name="geometry">
+        <rect>
+         <x>560</x>
+         <y>160</y>
+         <width>500</width>
+         <height>750</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: #FFFFFF; border-radius: 50px;</string>
+       </property>
+       <widget class="QPushButton" name="select_vid_button">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>620</y>
+          <width>300</width>
+          <height>100</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>40</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background: #FFAB7C;
+border-radius: 25px;
+color: #FFFFFF;</string>
+        </property>
+        <property name="text">
+         <string>영상 찍기</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="select_sample_img2">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>40</y>
+          <width>420</width>
+          <height>550</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="select_sample_opac2">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>40</y>
+          <width>420</width>
+          <height>550</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>20</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgba(128, 128, 128, 128);
+color:#FFFFFF;
+border-radius:0;</string>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;영상 편지로&lt;/p&gt;&lt;p&gt;축하하는 마음을&lt;/p&gt;&lt;p&gt;전해주세요&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="photo_page">
+      <widget class="QPushButton" name="photo_prev_button">
+       <property name="geometry">
+        <rect>
+         <x>970</x>
+         <y>650</y>
+         <width>123</width>
+         <height>107</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="photo_home_button">
+       <property name="geometry">
+        <rect>
+         <x>1120</x>
+         <y>650</y>
+         <width>123</width>
+         <height>107</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QWidget" name="photo_widget" native="true">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>30</y>
+         <width>900</width>
+         <height>900</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: #FFFFFF;border-radius:80;</string>
+       </property>
+       <widget class="QLabel" name="photo_viewfinder">
+        <property name="geometry">
+         <rect>
+          <x>66</x>
+          <y>66</y>
+          <width>768</width>
+          <height>768</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:black; border-radius:0;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QPushButton" name="photo_take_button">
+       <property name="geometry">
+        <rect>
+         <x>970</x>
+         <y>190</y>
+         <width>271</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>32</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: #FFAB7C;border-radius:25px; color: #FFFFFF;</string>
+       </property>
+       <property name="text">
+        <string>바로 찍기</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="photo_take_button_2">
+       <property name="geometry">
+        <rect>
+         <x>970</x>
+         <y>340</y>
+         <width>271</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>32</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: #FFAB7C;border-radius:25px; color: #FFFFFF;</string>
+       </property>
+       <property name="text">
+        <string>3초 타이머</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="photo_take_button_3">
+       <property name="geometry">
+        <rect>
+         <x>970</x>
+         <y>490</y>
+         <width>271</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>32</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: #FFAB7C;border-radius:25px; color: #FFFFFF;</string>
+       </property>
+       <property name="text">
+        <string>10초 타이머</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="handwrite_page">
+      <widget class="QWidget" name="handwrite_widget" native="true">
+       <property name="geometry">
+        <rect>
+         <x>64</x>
+         <y>180</y>
+         <width>1152</width>
+         <height>384</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background:#FFAFAF;border-radius:30px;</string>
+       </property>
+       <widget class="QGraphicsView" name="handwrite_graphicsView">
+        <property name="geometry">
+         <rect>
+          <x>96</x>
+          <y>32</y>
+          <width>960</width>
+          <height>320</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>365</x>
+         <y>60</y>
+         <width>550</width>
+         <height>70</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>38</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>손글씨를 입력해주세요</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="handwrite_fin_button">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>640</y>
+         <width>300</width>
+         <height>100</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>32</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: #FFAB7C;border-radius:25px; color: #FFFFFF;</string>
+       </property>
+       <property name="text">
+        <string>작성 완료</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="handwrite_rewrite_button">
+       <property name="geometry">
+        <rect>
+         <x>490</x>
+         <y>640</y>
+         <width>300</width>
+         <height>100</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>32</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: #FFAB7C;border-radius:25px; color: #FFFFFF;</string>
+       </property>
+       <property name="text">
+        <string>다시 쓰기</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="handwrite_retake_button">
+       <property name="geometry">
+        <rect>
+         <x>840</x>
+         <y>640</y>
+         <width>300</width>
+         <height>100</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>32</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: #FFAB7C;border-radius:25px; color: #FFFFFF;</string>
+       </property>
+       <property name="text">
+        <string>사진 재촬영</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="photo_review_page">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <widget class="QWidget" name="photo_review_widget" native="true">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>30</y>
+         <width>700</width>
+         <height>900</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: #FFFFFF;border-radius:60;</string>
+       </property>
+       <widget class="QLabel" name="photo_review_screen">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>50</y>
+          <width>600</width>
+          <height>800</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:black; border-radius:0;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QPushButton" name="photo_review_remake_button">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>435</y>
+         <width>271</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>32</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: #FFAB7C;border-radius:25px; color: #FFFFFF;</string>
+       </property>
+       <property name="text">
+        <string>다시 만들기</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="photo_review_complete_button">
+       <property name="geometry">
+        <rect>
+         <x>1000</x>
+         <y>435</y>
+         <width>271</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>32</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: #FFAB7C;border-radius:25px; color: #FFFFFF;</string>
+       </property>
+       <property name="text">
+        <string>보내기</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="video_page">
+      <widget class="QPushButton" name="video_home_button">
+       <property name="geometry">
+        <rect>
+         <x>970</x>
+         <y>780</y>
+         <width>123</width>
+         <height>107</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="video_prev_button">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>790</y>
+         <width>123</width>
+         <height>107</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="video_control_button">
+       <property name="geometry">
+        <rect>
+         <x>490</x>
+         <y>770</y>
+         <width>300</width>
+         <height>141</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>36</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: #FFAB7C;border-radius:25px; color: #FFFFFF;</string>
+       </property>
+       <property name="text">
+        <string>영상 녹화</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="video_stream">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1280</width>
+         <height>720</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background:#000000;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="video_review_page">
+      <widget class="QPushButton" name="video_review_prev_button">
+       <property name="geometry">
+        <rect>
+         <x>490</x>
+         <y>770</y>
+         <width>300</width>
+         <height>141</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>36</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: #FFAB7C;border-radius:25px; color: #FFFFFF;</string>
+       </property>
+       <property name="text">
+        <string>다시 찍기</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="video_review_next_button">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>770</y>
+         <width>300</width>
+         <height>141</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>36</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: #FFAB7C;border-radius:25px; color: #FFFFFF;</string>
+       </property>
+       <property name="text">
+        <string>촬영 종료</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="video_review_home_button">
+       <property name="geometry">
+        <rect>
+         <x>970</x>
+         <y>780</y>
+         <width>123</width>
+         <height>107</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QVideoWidget" name="video_review_widget" native="true">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1280</width>
+         <height>720</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background:black;</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="end_page">
+      <widget class="QFrame" name="end_frame">
+       <property name="geometry">
+        <rect>
+         <x>64</x>
+         <y>48</y>
+         <width>1152</width>
+         <height>864</height>
+        </rect>
+       </property>
+       <property name="acceptDrops">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: #FFFFFF;
+border-radius: 80px;</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <property name="lineWidth">
+        <number>20</number>
+       </property>
+       <property name="midLineWidth">
+        <number>10</number>
+       </property>
+       <widget class="QLabel" name="end_label">
+        <property name="geometry">
+         <rect>
+          <x>86</x>
+          <y>130</y>
+          <width>980</width>
+          <height>221</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>28</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>부부에게 귀중한 추억을 남겨주셔서 감사드립니다.
+기분 좋은 하루 보내세요.
+내방해주셔서 고맙습니다.</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="end_home_button">
+        <property name="geometry">
+         <rect>
+          <x>950</x>
+          <y>680</y>
+          <width>116</width>
+          <height>100</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:0;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="end_image">
+        <property name="geometry">
+         <rect>
+          <x>320</x>
+          <y>320</y>
+          <width>512</width>
+          <height>512</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-image:url(QT_Resources/Pics/free-icon-bride-and-groom-2706535.png);
+border-radius:0;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QVideoWidget</class>
+   <extends>QWidget</extends>
+   <header>PySide6.QtMultimediaWidgets</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>video_prev_button</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>go_prev_page()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>180</x>
+     <y>790</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>663</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>srvc_chk_button</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>check_service_validation()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>652</x>
+     <y>743</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>599</x>
+     <y>950</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>input_next_button</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>check_input()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1067</x>
+     <y>696</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1064</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>select_pic_button</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>go_photo_page()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>197</x>
+     <y>796</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>640</x>
+     <y>325</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>select_home_button</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>go_home_page()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1182</x>
+     <y>599</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>640</x>
+     <y>286</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>video_home_button</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>go_home_page()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>970</x>
+     <y>886</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>640</x>
+     <y>402</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>select_prev_button</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>go_prev_page()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1156</x>
+     <y>760</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>639</x>
+     <y>479</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>home_next_button</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>go_next_page()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>319</x>
+     <y>432</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>418</x>
+     <y>477</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>info_next_button</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>go_next_page()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1051</x>
+     <y>701</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1047</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>agreement_next_button</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>go_next_page()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>632</x>
+     <y>823</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>644</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>input_home_button</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>go_home_page()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1087</x>
+     <y>519</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1103</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>thanks_next_button</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>go_next_page()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>758</x>
+     <y>796</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>730</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>select_vid_button</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>go_next_page()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>908</x>
+     <y>847</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1284</x>
+     <y>854</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>video_review_home_button</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>go_home_page()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1019</x>
+     <y>794</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1281</x>
+     <y>379</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>video_review_prev_button</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>go_prev_page()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>554</x>
+     <y>781</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1280</x>
+     <y>452</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>video_review_next_button</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>go_next_page()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>141</x>
+     <y>777</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1283</x>
+     <y>512</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>video_control_button</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>record_control()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>528</x>
+     <y>776</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>411</x>
+     <y>956</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>photo_prev_button</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>go_prev_page()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1067</x>
+     <y>732</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1280</x>
+     <y>647</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>photo_home_button</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>go_home_page()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1215</x>
+     <y>724</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1281</x>
+     <y>752</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>photo_take_button</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>photo_take_now()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1187</x>
+     <y>246</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1176</x>
+     <y>-13</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>photo_take_button_2</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>photo_take_3sec()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1076</x>
+     <y>403</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>587</x>
+     <y>-9</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>photo_take_button_3</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>photo_take_10sec()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1088</x>
+     <y>523</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>667</x>
+     <y>-15</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>end_home_button</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>go_home_page()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1052</x>
+     <y>758</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>634</x>
+     <y>475</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>handwrite_fin_button</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>handwrite_fin()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>377</x>
+     <y>656</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>435</x>
+     <y>-15</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>handwrite_rewrite_button</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>handwrite_clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>633</x>
+     <y>656</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>917</x>
+     <y>-5</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>photo_review_remake_button</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>go_photo_page()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>223</x>
+     <y>483</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>226</x>
+     <y>-10</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>photo_review_complete_button</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>go_end_page()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1141</x>
+     <y>466</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1112</x>
+     <y>-12</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>handwrite_retake_button</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>go_photo_page()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>924</x>
+     <y>664</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1095</x>
+     <y>-3</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>go_next_page()</slot>
+  <slot>go_home_page()</slot>
+  <slot>go_end_page()</slot>
+  <slot>go_prev_page()</slot>
+  <slot>close_window()</slot>
+  <slot>check_service_validation()</slot>
+  <slot>check_input()</slot>
+  <slot>record_control()</slot>
+  <slot>photo_take_now()</slot>
+  <slot>photo_retake()</slot>
+  <slot>photo_save()</slot>
+  <slot>photo_take_3sec()</slot>
+  <slot>photo_take_10sec()</slot>
+  <slot>handwrite_fin()</slot>
+  <slot>handwrite_clear()</slot>
+  <slot>go_photo_page()</slot>
+ </slots>
+</ui>

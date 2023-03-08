@@ -1,0 +1,25 @@
+.process04 {
+    background-color: #C5DAD1;
+    height: 70vh;
+    }
+.process-main {
+    padding-top: 10%;
+}
+.invitation-item{
+    margin: 1px;
+    display: flex;
+}
+.text-form {
+    display: inline;
+}
+.invitation-form{
+    display: flex;
+}
+.upload-text {
+    display: flex;
+}
+.buttons {
+    display: inline;
+    float: right;
+    margin: 5px;
+}

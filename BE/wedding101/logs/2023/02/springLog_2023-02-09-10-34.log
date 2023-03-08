@@ -1,0 +1,2 @@
+2023-2월-09 10:34:45 WARN  [http-nio-9090-exec-6] [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] - SQL Error: 1452, SQLState: 23000
+2023-2월-09 10:34:45 ERROR [http-nio-9090-exec-6] [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] - Cannot add or update a child row: a foreign key constraint fails (`wedding101_db`.`tbl_invitation`, CONSTRAINT `FK_tbl_template_TO_tbl_invitation_1` FOREIGN KEY (`template_seq`) REFERENCES `tbl_template` (`template_seq`) ON DELETE SET NULL)
